@@ -19,10 +19,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             ChallangeSetMayTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    LessonOverviewSheet(modifier = Modifier.padding(innerPadding))
-                    /*SearchableStudyList(
+                    //LessonOverviewSheet(modifier = Modifier.padding(innerPadding))
+                    SearchableStudyList(
                         modifier = Modifier.padding(innerPadding)
-                    )*/
+                    )
                 }
             }
         }
